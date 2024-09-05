@@ -22,9 +22,10 @@ namespace FirstWebApplication.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AddEmployee()
         {
-            return View();
+            var model = new AddEmployee();
+            return View(model);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
