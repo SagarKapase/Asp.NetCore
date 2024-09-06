@@ -72,6 +72,24 @@ namespace FirstWebApplication.Controllers
             
         }
 
+        [HttpPost]
+        public IActionResult DeleteEmployee(int id)
+        {
+            try
+            {
+                var employee = applicationDbContext.Employees.FirstOrDefault(x => x.Id == id);
+                if (employee != null)
+                {
+                    applicationDbContext.Employees.Remove(employee);
+                    applicationDbContext.SaveChanges();
+                }
+                return RedirectToAction("ShowEmployees");
+            }catch (Exception ex)
+            {
+                return View("Error");
+            }
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
