@@ -1,6 +1,7 @@
 using FirstWebApplication.DataDbContext;
 using FirstWebApplication.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace FirstWebApplication.Controllers
@@ -27,20 +28,20 @@ namespace FirstWebApplication.Controllers
 
         public IActionResult AddEmployee()
         {
-            var model = new AddEmployee();
+            var model = new Employees();
             return View(model);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AddEmployee(AddEmployee model)
+        public IActionResult AddEmployee(Employees model)
         {
             if (ModelState.IsValid)
             {
                 //Add the employee to the database
                 try
                 {
-                    applicationDbContext.AddEmployees.Add(model);
+                    applicationDbContext.Employees.Add(model);
                     applicationDbContext.SaveChanges();
                     return RedirectToAction("Success");
                 }catch(Exception ex)
@@ -55,6 +56,20 @@ namespace FirstWebApplication.Controllers
         public IActionResult Success()
         {
             return View();
+        }
+
+        public async Task<IActionResult> ShowEmployees()
+        {
+            try
+            {
+                List<Employees> allEmployees = await applicationDbContext.Employees.ToListAsync();
+                return View(allEmployees);
+            }
+            catch(Exception ex)
+            {
+                return View("Error while fetching the data from db");
+            }
+            
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

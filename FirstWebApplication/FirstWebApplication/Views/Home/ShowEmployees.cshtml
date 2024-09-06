@@ -1,0 +1,63 @@
+﻿@model IEnumerable<FirstWebApplication.Models.Employees>
+
+@{
+    ViewData["Title"] = "ShowEmployees";
+}
+
+
+<h1>Employee Details</h1><br />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Department)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Id
+                    </td>
+                    <td>
+                        @item.EmployeeName
+                    </td>
+                    <td>
+                        @item.EmailAddress
+                    </td>
+                    <td>
+                        @item.PhoneNumber
+                    </td>
+                    <td>
+                        @item.Department
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5" class="text-center">No employees found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

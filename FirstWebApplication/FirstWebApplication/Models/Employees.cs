@@ -2,7 +2,7 @@
 
 namespace FirstWebApplication.Models
 {
-    public class AddEmployee
+    public class Employees
     {
         [Key]
         public int Id { get; set; }

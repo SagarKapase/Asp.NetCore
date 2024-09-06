@@ -7,6 +7,6 @@ namespace FirstWebApplication.DataDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<AddEmployee> AddEmployees { get; set; } //represent the table in the database
+        public DbSet<Employees> Employees { get; set; } //represent the table in the database
     }
 }
