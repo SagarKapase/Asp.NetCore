@@ -4,6 +4,9 @@ namespace FirstWebApplication.Models
 {
     public class AddEmployee
     {
+        [Key]
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "Employee name is required")]
         [StringLength(100,ErrorMessage = "Name cannot exceeds 100 characters")]
         public string EmployeeName { get; set; }
