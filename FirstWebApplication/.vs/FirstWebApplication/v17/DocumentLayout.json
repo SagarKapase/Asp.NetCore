@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|c:\\users\\sagar.kapase\\documents\\net core\\firstwebapplication\\firstwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|solutionrelative:firstwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|c:\\users\\sagar.kapase\\documents\\net core\\firstwebapplication\\firstwebapplication\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|solutionrelative:firstwebapplication\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|c:\\users\\sagar.kapase\\documents\\net core\\firstwebapplication\\firstwebapplication\\datadbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|solutionrelative:firstwebapplication\\datadbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|c:\\users\\sagar.kapase\\documents\\net core\\firstwebapplication\\firstwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D6E61D7B-7952-4873-85A6-C6E25DC9A324}|FirstWebApplication\\FirstWebApplication.csproj|solutionrelative:firstwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "FirstWebApplication\\Views\\Home\\Index.cshtml",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "FirstWebApplication\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T09:51:53.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T09:51:53.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ShowEmployees.cshtml",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\Views\\Home\\ShowEmployees.cshtml",
               "RelativeDocumentMoniker": "FirstWebApplication\\Views\\Home\\ShowEmployees.cshtml",
@@ -63,24 +62,24 @@
               "RelativeToolTip": "FirstWebApplication\\Views\\Home\\ShowEmployees.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T09:35:20.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T09:35:20.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\appsettings.json",
               "RelativeDocumentMoniker": "FirstWebApplication\\appsettings.json",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\appsettings.json",
               "RelativeToolTip": "FirstWebApplication\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-06T03:41:18.155Z"
+              "WhenOpened": "2024-09-06T03:41:18.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\DataDbContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "FirstWebApplication\\DataDbContext\\ApplicationDbContext.cs",
@@ -92,20 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AddEmployee.cshtml",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\Views\\Home\\AddEmployee.cshtml",
               "RelativeDocumentMoniker": "FirstWebApplication\\Views\\Home\\AddEmployee.cshtml",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\Views\\Home\\AddEmployee.cshtml",
               "RelativeToolTip": "FirstWebApplication\\Views\\Home\\AddEmployee.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-05T09:30:41.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FirstWebApplication\\Controllers\\HomeController.cs",
@@ -113,12 +112,11 @@
               "RelativeToolTip": "FirstWebApplication\\Controllers\\HomeController.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAWwEoAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T08:50:50.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T08:50:50.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\FirstWebApplication\\FirstWebApplication\\Program.cs",
               "RelativeDocumentMoniker": "FirstWebApplication\\Program.cs",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "FirstWebApplication\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T05:45:55.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T05:45:55.739Z"
             }
           ]
         }
