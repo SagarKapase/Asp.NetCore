@@ -33,6 +33,43 @@ namespace EFCoreCodeFirstDemo
             GetAllStudents(context);
 
             Console.WriteLine("All operations completed successfully!");
+
+
+            //Performing Searching,Sorting operations using LINQ
+            try
+            {
+                //Initialize the DbContext
+                using (var appContext = new MyApplicationDbContext())
+                {
+                    string searchFirstName = "Pranaya";
+
+                    //Linq query syntax to search for a student by first name
+                    var searchResultQS = (from student in appContext.Students
+                                          where student.FirstName == searchFirstName
+                                          select student).ToList();
+
+                    var searchResultMS = appContext.Students
+                        .Where(s => s.FirstName == searchFirstName).ToList();
+
+                    //check if any student is found
+                    if (searchResultQS.Any())
+                    {
+                        foreach (var student in searchResultQS)
+                        {
+                            Console.WriteLine($"Student Found: {student.FirstName} {student.LastName}, Email: {student.Email}");
+                        }
+                    }
+                    else
+                    {
+                        // Output if no student is found
+                        Console.WriteLine("No student found with the given first name.");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
 
         private static void AddBranches(MyApplicationDbContext context)
@@ -48,7 +85,7 @@ namespace EFCoreCodeFirstDemo
 
             var branch2 = new Branch
             {
-                BranchName = "Electrical Engineering",
+                BranchName = "Mechanical Engineering",
                 Description = "Focuses on electrical systems and circuit design.",
                 PhoneNumber = "987-654-3210",
                 Email = "ee@dotnettutorials.net"
@@ -72,11 +109,11 @@ namespace EFCoreCodeFirstDemo
             // Create two new Student objects
             var student1 = new Student
             {
-                FirstName = "Pranaya",
-                LastName = "Rout",
+                FirstName = "Sagar",
+                LastName = "Kapase",
                 DateOfBirth = new DateTime(2000, 1, 15),
-                Gender = "Female",
-                Email = "Pranaya.Rout@dotnettutorials.net",
+                Gender = "Male",
+                Email = "sagar.kapase@uts-global.com",
                 PhoneNumber = "555-1234",
                 EnrollmentDate = DateTime.Now,
                 Branch = csBranch // Assign the Computer Science branch
@@ -84,11 +121,11 @@ namespace EFCoreCodeFirstDemo
 
             var student2 = new Student
             {
-                FirstName = "Rakesh",
+                FirstName = "John",
                 LastName = "Kumar",
                 DateOfBirth = new DateTime(1999, 10, 22),
                 Gender = "Male",
-                Email = "Rakesh.Kumar@dotnettutorials.net",
+                Email = "John.Kumar@dotnettutorials.net",
                 PhoneNumber = "555-5678",
                 EnrollmentDate = DateTime.Now,
                 Branch = eeBranch // Assign the Electrical Engineering branch
