@@ -1,0 +1,15 @@
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\bin\Debug\net8.0\LinqExercise.exe
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\bin\Debug\net8.0\LinqExercise.deps.json
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\bin\Debug\net8.0\LinqExercise.runtimeconfig.json
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\bin\Debug\net8.0\LinqExercise.dll
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\bin\Debug\net8.0\LinqExercise.pdb
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.AssemblyInfoInputs.cache
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.AssemblyInfo.cs
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.csproj.CoreCompileInputs.cache
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.sourcelink.json
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.dll
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\refint\LinqExercise.dll
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.pdb
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\LinqExercise.genruntimeconfig.cache
+C:\Users\sagar.kapase\Documents\Net Core\LinqExercise\LinqExercise\obj\Debug\net8.0\ref\LinqExercise.dll
