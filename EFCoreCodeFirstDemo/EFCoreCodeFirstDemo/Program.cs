@@ -47,7 +47,7 @@ namespace EFCoreCodeFirstDemo
 
             #region Filtering using LINQ to Entities in Entity Framework Core
 
-            try
+            /*try
             {
                 using (var context = new MyApplicationDbContext())
                 {
@@ -70,6 +70,46 @@ namespace EFCoreCodeFirstDemo
                             Console.WriteLine($"Student Found: {student.FirstName} {student.LastName}, Email: {student.Email},Branch:{student.Branch.BranchName},Gender:{student.Gender}");
                         }
                     }else
+                    {
+                        Console.WriteLine("Student Not Found !!!");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }*/
+
+            #endregion
+
+            #region Sorting using LINQ to Entities in Entity Framework Core
+
+            try
+            {
+                using (var context = new MyApplicationDbContext())
+                {
+                    string branchName = "Computer Science Engineering";
+                    string gender = "Female";
+
+                    //Linq query syntax to filter students by branch name and gender
+                    var filteredStudentsQS = (from student in context.Students
+                                              orderby student.Gender ascending,
+                                              student.EnrollmentDate descending
+                                              select student).ToList();
+
+                    var sortedStudentsMethodSyntax = context.Students
+                                                            .OrderBy(s => s.Gender) // Primary sort by Gender in ascending order
+                                                            .ThenByDescending(s => s.EnrollmentDate) // Secondary sort by EnrollmentDate in descending order
+                                                            .ToList();
+
+                    if (filteredStudentsQS.Any())
+                    {
+                        foreach (var student in filteredStudentsQS)
+                        {
+                            Console.WriteLine($"Student: {student.LastName} {student.FirstName}, Gender: {student.Gender}, Enrollment Date: {student.EnrollmentDate.ToShortDateString()}");
+                        }
+                    }
+                    else
                     {
                         Console.WriteLine("Student Not Found !!!");
                     }

@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "EFCoreCodeFirstDemo\\Program.cs",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Program.cs",
               "RelativeToolTip": "EFCoreCodeFirstDemo\\Program.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAmwEAAAAAAAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAhwHQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T06:11:30.347Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "EFCoreCodeFirstDemo\\Entities\\Student.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAswBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T06:14:10.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T06:14:10.343Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAuwBIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T06:16:03.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T06:16:03.43Z"
             }
           ]
         }
