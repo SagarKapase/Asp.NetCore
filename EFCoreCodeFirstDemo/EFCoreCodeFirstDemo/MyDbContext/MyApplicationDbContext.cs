@@ -1,5 +1,7 @@
 ﻿using EFCoreCodeFirstDemo.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +14,17 @@ namespace EFCoreCodeFirstDemo.MyDbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=UTS-SAGARK;Database=EFCoreDb1;User Id=sa;Password=uts@123;TrustServerCertificate=True");
+            //optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
+
+            var configBuilder = new ConfigurationBuilder()
+                .AddJsonFile("appSettings.json") // Specify the configuration file to load.
+                .Build(); // Build the configuration object, making it ready to retrieve values.
+            
+            var configSection = configBuilder.GetSection("ConnectionStrings");
+            
+            var connectionString = configSection["SQLServerConnection"] ?? null;
+            
+            optionsBuilder.UseSqlServer(connectionString);
         }
         public DbSet<Student> Students { get; set; }
         public DbSet<Branch> Branches { get; set; }

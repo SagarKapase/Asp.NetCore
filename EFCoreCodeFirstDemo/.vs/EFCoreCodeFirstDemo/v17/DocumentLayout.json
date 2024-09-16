@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F91B2D19-D6B8-427E-BF0F-8BF3F96638F9}|EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo.csproj|c:\\users\\sagar.kapase\\documents\\net core\\efcorecodefirstdemo\\efcorecodefirstdemo\\mydbcontext\\myapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F91B2D19-D6B8-427E-BF0F-8BF3F96638F9}|EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo.csproj|solutionrelative:efcorecodefirstdemo\\mydbcontext\\myapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F91B2D19-D6B8-427E-BF0F-8BF3F96638F9}|EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo.csproj|c:\\users\\sagar.kapase\\documents\\net core\\efcorecodefirstdemo\\efcorecodefirstdemo\\migrations\\20240911062420_createefcoredb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F91B2D19-D6B8-427E-BF0F-8BF3F96638F9}|EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo.csproj|solutionrelative:efcorecodefirstdemo\\migrations\\20240911062420_createefcoredb1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,31 +22,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240911062420_createEFCoreDb1.cs",
-              "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Migrations\\20240911062420_createEFCoreDb1.cs",
-              "RelativeDocumentMoniker": "EFCoreCodeFirstDemo\\Migrations\\20240911062420_createEFCoreDb1.cs",
-              "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Migrations\\20240911062420_createEFCoreDb1.cs",
-              "RelativeToolTip": "EFCoreCodeFirstDemo\\Migrations\\20240911062420_createEFCoreDb1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA2AAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Program.cs",
+              "RelativeDocumentMoniker": "EFCoreCodeFirstDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Program.cs",
+              "RelativeToolTip": "EFCoreCodeFirstDemo\\Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAmwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T06:24:20.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
-              "RelativeToolTip": "EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T06:16:03.43Z",
+              "WhenOpened": "2024-09-11T06:11:30.347Z",
               "EditorCaption": ""
             },
             {
@@ -61,22 +45,22 @@
               "RelativeDocumentMoniker": "EFCoreCodeFirstDemo\\Entities\\Student.cs",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Entities\\Student.cs",
               "RelativeToolTip": "EFCoreCodeFirstDemo\\Entities\\Student.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBcAAAApAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T06:14:10.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Program.cs",
-              "RelativeDocumentMoniker": "EFCoreCodeFirstDemo\\Program.cs",
-              "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\Program.cs",
-              "RelativeToolTip": "EFCoreCodeFirstDemo\\Program.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwDUAAAAzAAAA",
+              "DocumentIndex": 2,
+              "Title": "MyApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\EFCoreCodeFirstDemo\\EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
+              "RelativeToolTip": "EFCoreCodeFirstDemo\\MyDbContext\\MyApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T06:11:30.347Z",
+              "WhenOpened": "2024-09-11T06:16:03.43Z",
               "EditorCaption": ""
             }
           ]

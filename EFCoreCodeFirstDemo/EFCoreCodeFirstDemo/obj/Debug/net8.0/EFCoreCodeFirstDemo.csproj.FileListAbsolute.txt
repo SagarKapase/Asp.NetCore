@@ -130,3 +130,10 @@ C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo
 C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\obj\Debug\net8.0\EFCoreCodeFirstDemo.pdb
 C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\obj\Debug\net8.0\EFCoreCodeFirstDemo.genruntimeconfig.cache
 C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\obj\Debug\net8.0\ref\EFCoreCodeFirstDemo.dll
+C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\sagar.kapase\Documents\Net Core\EFCoreCodeFirstDemo\EFCoreCodeFirstDemo\bin\Debug\net8.0\appSettings.json
