@@ -135,7 +135,9 @@ namespace EFCoreCodeFirstDemo
                                                                                                 new
                                                                                                 {
                                                                                                     BranchName = studentGroup.Key,
-                                                                                                    StudentCount = studentGroup.Count()
+                                                                                                    StudentCount = studentGroup.Count(),
+                                                                                                    //retrive the list of students in each group
+                                                                                                    Students = studentGroup.ToList()
                                                                                                 }).ToList();
 
                     if (groupedStudentQuerySyntax.Any())
@@ -143,6 +145,12 @@ namespace EFCoreCodeFirstDemo
                         foreach (var group in groupedStudentQuerySyntax)
                         {
                             Console.WriteLine($"\nBranch: {group.BranchName}, Number of Students: {group.StudentCount}");
+
+                            // Display details of each student in the branch
+                            foreach (var student in group.Students)
+                            {
+                                Console.WriteLine($"\tStudent: {student.FirstName} {student.LastName}, Email: {student.Email}, Enrollment Date: {student.EnrollmentDate.ToShortDateString()}");
+                            }
                         }
                     }
                     else
@@ -157,6 +165,48 @@ namespace EFCoreCodeFirstDemo
             {
                 Console.WriteLine(ex.ToString());
             }*/
+            #endregion
+
+            #region Joining using LINQ to Entities in Entity Framework Core
+
+            try
+            {
+                using (var context = new MyApplicationDbContext())
+                {
+                    var joiningTableQuerySyntax = (from student in context.Students
+                                                   join branch in context.Branches
+                                                   on student.Branch.BranchId equals branch.BranchId
+                                                   select new
+                                                   {
+                                                       student.FirstName,
+                                                       student.LastName,
+                                                       student.Email,
+                                                       student.EnrollmentDate,
+                                                       branch.BranchName
+                                                   }).ToList();
+
+                    // Check if any results are found
+                    if (joiningTableQuerySyntax.Any())
+                    {
+                        // Iterate through the results and display the details
+                        foreach (var item in joiningTableQuerySyntax)
+                        {
+                            // Output the student's details along with the branch name
+                            Console.WriteLine($"Student: {item.FirstName} {item.LastName}, Email: {item.Email}, Enrollment Date: {item.EnrollmentDate.ToShortDateString()}, Branch: {item.BranchName}");
+                        }
+                    }
+                    else
+                    {
+                        // Output if no students are found
+                        Console.WriteLine("No students found.");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
             #endregion
         }
     }
