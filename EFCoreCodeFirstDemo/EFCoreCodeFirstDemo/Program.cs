@@ -84,7 +84,7 @@ namespace EFCoreCodeFirstDemo
 
             #region Sorting using LINQ to Entities in Entity Framework Core
 
-            try
+            /*try
             {
                 using (var context = new MyApplicationDbContext())
                 {
@@ -118,10 +118,46 @@ namespace EFCoreCodeFirstDemo
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-            }
+            }*/
 
             #endregion
-        }
 
+            #region Grouping using LINQ to Entities in Entity Framework Core
+
+            /*try
+            {
+                using (var context = new MyApplicationDbContext())
+                {
+                    var groupedStudentQuerySyntax = (from student in context.Students
+                                                     .Include(s => s.Branch)
+                                                     group student by student.Branch.BranchName into studentGroup
+                                                     select
+                                                                                                new
+                                                                                                {
+                                                                                                    BranchName = studentGroup.Key,
+                                                                                                    StudentCount = studentGroup.Count()
+                                                                                                }).ToList();
+
+                    if (groupedStudentQuerySyntax.Any())
+                    {
+                        foreach (var group in groupedStudentQuerySyntax)
+                        {
+                            Console.WriteLine($"\nBranch: {group.BranchName}, Number of Students: {group.StudentCount}");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No students found.");
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }*/
+            #endregion
+        }
     }
 }
