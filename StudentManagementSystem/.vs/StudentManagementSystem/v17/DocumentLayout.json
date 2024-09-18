@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\repository\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\repository\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Migrations\\20240918064313_CreatingStudentManagementSystemDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentManagementSystem\\Migrations\\20240918064313_CreatingStudentManagementSystemDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,16 +11,28 @@
       "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\repository\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\repository\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCFBD02A-192F-44FC-BD2F-A85CC1551458}|StudentManagementSystem\\StudentManagementSystem.csproj|c:\\users\\sagar.kapase\\documents\\net core\\studentmanagementsystem\\studentmanagementsystem\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,24 +46,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240918064313_CreatingStudentManagementSystemDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Migrations\\20240918064313_CreatingStudentManagementSystemDatabase.cs",
-              "RelativeDocumentMoniker": "StudentManagementSystem\\Migrations\\20240918064313_CreatingStudentManagementSystemDatabase.cs",
-              "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Migrations\\20240918064313_CreatingStudentManagementSystemDatabase.cs",
-              "RelativeToolTip": "StudentManagementSystem\\Migrations\\20240918064313_CreatingStudentManagementSystemDatabase.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T06:43:14.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appSettings.json",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\appSettings.json",
               "RelativeDocumentMoniker": "StudentManagementSystem\\appSettings.json",
@@ -75,25 +58,23 @@
               "RelativeToolTip": "StudentManagementSystem\\appSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-18T04:27:39.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T04:27:39.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "EFCoreDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Repository\\EFCoreDbContext.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Repository\\EFCoreDbContext.cs",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Repository\\EFCoreDbContext.cs",
               "RelativeToolTip": "StudentManagementSystem\\Repository\\EFCoreDbContext.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAswCgAAAA0AAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswCoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:25:16.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T04:25:16.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Subject.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Entities\\Subject.cs",
@@ -101,12 +82,11 @@
               "RelativeToolTip": "StudentManagementSystem\\Entities\\Subject.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T07:06:00.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T07:06:00.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Teacher.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Entities\\Teacher.cs",
@@ -118,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Course.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Entities\\Course.cs",
@@ -126,53 +106,57 @@
               "RelativeToolTip": "StudentManagementSystem\\Entities\\Course.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T06:38:33.41Z"
+              "WhenOpened": "2024-09-17T06:38:33.41Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Address.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Entities\\Address.cs",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Address.cs",
               "RelativeToolTip": "StudentManagementSystem\\Entities\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T06:38:16.216Z"
+              "WhenOpened": "2024-09-17T06:38:16.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Branch.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Branch.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Entities\\Branch.cs",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Branch.cs",
               "RelativeToolTip": "StudentManagementSystem\\Entities\\Branch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T06:37:36.525Z"
+              "WhenOpened": "2024-09-17T06:37:36.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Entities\\Student.cs",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Entities\\Student.cs",
               "RelativeToolTip": "StudentManagementSystem\\Entities\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T06:35:37.771Z"
+              "WhenOpened": "2024-09-17T06:35:37.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagementSystem\\Program.cs",
               "ToolTip": "C:\\Users\\sagar.kapase\\Documents\\Net Core\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
               "RelativeToolTip": "StudentManagementSystem\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T06:19:59.316Z",
               "EditorCaption": ""
