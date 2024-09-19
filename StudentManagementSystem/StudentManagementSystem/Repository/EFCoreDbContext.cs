@@ -21,8 +21,8 @@ namespace StudentManagementSystem.Repository
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Enable Logging
-            optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
-            optionsBuilder.UseLazyLoadingProxies(); //enabeling the lazy loading proxies
+            //optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
+            //optionsBuilder.UseLazyLoadingProxies(); //enabeling the lazy loading proxies
             try
             {
                 var configBuilder = new ConfigurationBuilder()
