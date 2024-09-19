@@ -13,9 +13,9 @@ namespace StudentManagementSystem.Entities
         public string LastName { get; set; }
         public string Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public Branch Branch { get; set; } //Navigation Property represents the branch the student belongs to.
+        public virtual Branch Branch { get; set; } //Navigation Property represents the branch the student belongs to.
         public int BranchId { get; set; } //Foreign Key Links the student to a specific branch
-        public Address Address { get; set; } // A student has one address ( one to one relationship )
-        public ICollection<Course> Courses { get; set; } //A collection representing the many to many relationship between students and courses
+        public virtual Address Address { get; set; } // A student has one address ( one to one relationship )
+        public virtual ICollection<Course> Courses { get; set; } //A collection representing the many to many relationship between students and courses
     }
 }

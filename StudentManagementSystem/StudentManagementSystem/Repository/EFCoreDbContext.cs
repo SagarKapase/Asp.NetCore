@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using StudentManagementSystem.Entities;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,9 @@ namespace StudentManagementSystem.Repository
         public EFCoreDbContext() { }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            // Enable Logging
+            optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
+            optionsBuilder.UseLazyLoadingProxies(); //enabeling the lazy loading proxies
             try
             {
                 var configBuilder = new ConfigurationBuilder()

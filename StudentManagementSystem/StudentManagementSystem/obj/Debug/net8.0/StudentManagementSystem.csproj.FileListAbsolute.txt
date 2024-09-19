@@ -137,3 +137,8 @@ C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManageme
 C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\appSettings.json
+C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\sagar.kapase\Documents\Net Core\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

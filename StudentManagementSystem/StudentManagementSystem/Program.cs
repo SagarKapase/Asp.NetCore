@@ -7,7 +7,8 @@ namespace StudentManagementSystem
     {
         static void Main(string[] args)
         {
-            using (var context = new EFCoreDbContext())
+            #region Eager Loading
+            /*using (var context = new EFCoreDbContext())
             {
                 try
                 {
@@ -37,7 +38,39 @@ namespace StudentManagementSystem
                 {
                     Console.WriteLine(ex.ToString());
                 }
-            }
+            }*/
+            #endregion
+
+            #region Lazy Loading in Entity Framework Core
+
+            /*using (var context = new EFCoreDbContext())
+            {
+                try
+                {
+                    // Lazy Loading Example
+                    Console.WriteLine("Lazy Loading Student and related data\n");
+
+                    var student = context.Students.FirstOrDefault(s => s.StudentId == 1);
+                    // Display basic student information
+                    Console.WriteLine($"\nStudent Id: {student?.StudentId}, Name: {student?.FirstName} {student?.LastName}, Gender: {student?.Gender} \n");
+
+                    // Accessing the Branch property triggers lazy loading
+                    // EF Core will issue a SQL query to load the related Branch
+                    if (student != null)
+                    {
+                        Console.WriteLine($"\nBranch Location: {student.Branch?.BranchLocation}, Email: {student.Branch?.BranchEmail}, Phone: {student.Branch?.BranchPhoneNumber}  \n");
+                        // Accessing the Address property triggers lazy loading
+                        // EF Core will issue a SQL query to load the related Address
+                        Console.WriteLine($"\nAddress: {student.Address?.Street}, {student.Address?.City}, {student.Address?.State}, Pin: {student.Address?.PostalCode} \n");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+            }*/
+            
+            #endregion
         }
     }
 }
